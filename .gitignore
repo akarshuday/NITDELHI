@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Models
+# Include small models, but exclude large datasets and temporary caches
+datasets/
+data/per_antibiotic_cohorts/
+results.db
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

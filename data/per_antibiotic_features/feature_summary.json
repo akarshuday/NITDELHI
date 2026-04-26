@@ -1,0 +1,502 @@
+[
+  {
+    "antibiotic": "ampicillin",
+    "input_rows": 20,
+    "saved_rows": 17,
+    "missing_genomes": 3,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ampicillin_features.tsv"
+  },
+  {
+    "antibiotic": "amikacin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\amikacin_features.tsv"
+  },
+  {
+    "antibiotic": "amoxicillin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\amoxicillin_features.tsv"
+  },
+  {
+    "antibiotic": "amoxicillin-clavulanic acid",
+    "input_rows": 0,
+    "saved_rows": 0,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\amoxicillin-clavulanic acid_features.tsv"
+  },
+  {
+    "antibiotic": "azithromycin",
+    "input_rows": 20,
+    "saved_rows": 17,
+    "missing_genomes": 3,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\azithromycin_features.tsv"
+  },
+  {
+    "antibiotic": "aztreonam",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\aztreonam_features.tsv"
+  },
+  {
+    "antibiotic": "cefazolin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\cefazolin_features.tsv"
+  },
+  {
+    "antibiotic": "cefepime",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\cefepime_features.tsv"
+  },
+  {
+    "antibiotic": "cefoxitin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\cefoxitin_features.tsv"
+  },
+  {
+    "antibiotic": "ceftazidime",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ceftazidime_features.tsv"
+  },
+  {
+    "antibiotic": "ceftriaxone",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ceftriaxone_features.tsv"
+  },
+  {
+    "antibiotic": "cefuroxime",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\cefuroxime_features.tsv"
+  },
+  {
+    "antibiotic": "chloramphenicol",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\chloramphenicol_features.tsv"
+  },
+  {
+    "antibiotic": "ciprofloxacin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ciprofloxacin_features.tsv"
+  },
+  {
+    "antibiotic": "clarithromycin",
+    "input_rows": 20,
+    "saved_rows": 17,
+    "missing_genomes": 3,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\clarithromycin_features.tsv"
+  },
+  {
+    "antibiotic": "clindamycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\clindamycin_features.tsv"
+  },
+  {
+    "antibiotic": "colistin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\colistin_features.tsv"
+  },
+  {
+    "antibiotic": "daptomycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\daptomycin_features.tsv"
+  },
+  {
+    "antibiotic": "doxycycline",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\doxycycline_features.tsv"
+  },
+  {
+    "antibiotic": "ertapenem",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ertapenem_features.tsv"
+  },
+  {
+    "antibiotic": "erythromycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\erythromycin_features.tsv"
+  },
+  {
+    "antibiotic": "fosfomycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\fosfomycin_features.tsv"
+  },
+  {
+    "antibiotic": "gentamicin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\gentamicin_features.tsv"
+  },
+  {
+    "antibiotic": "imipenem",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\imipenem_features.tsv"
+  },
+  {
+    "antibiotic": "kanamycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\kanamycin_features.tsv"
+  },
+  {
+    "antibiotic": "levofloxacin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\levofloxacin_features.tsv"
+  },
+  {
+    "antibiotic": "linezolid",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\linezolid_features.tsv"
+  },
+  {
+    "antibiotic": "meropenem",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\meropenem_features.tsv"
+  },
+  {
+    "antibiotic": "minocycline",
+    "input_rows": 20,
+    "saved_rows": 19,
+    "missing_genomes": 1,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\minocycline_features.tsv"
+  },
+  {
+    "antibiotic": "moxifloxacin",
+    "input_rows": 20,
+    "saved_rows": 19,
+    "missing_genomes": 1,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\moxifloxacin_features.tsv"
+  },
+  {
+    "antibiotic": "nalidixic acid",
+    "input_rows": 0,
+    "saved_rows": 0,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\nalidixic acid_features.tsv"
+  },
+  {
+    "antibiotic": "nitrofurantoin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\nitrofurantoin_features.tsv"
+  },
+  {
+    "antibiotic": "norfloxacin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\norfloxacin_features.tsv"
+  },
+  {
+    "antibiotic": "ofloxacin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\ofloxacin_features.tsv"
+  },
+  {
+    "antibiotic": "oxacillin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\oxacillin_features.tsv"
+  },
+  {
+    "antibiotic": "penicillin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\penicillin_features.tsv"
+  },
+  {
+    "antibiotic": "piperacillin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\piperacillin_features.tsv"
+  },
+  {
+    "antibiotic": "piperacillin-tazobactam",
+    "input_rows": 14,
+    "saved_rows": 13,
+    "missing_genomes": 1,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\piperacillin-tazobactam_features.tsv"
+  },
+  {
+    "antibiotic": "polymyxin b",
+    "input_rows": 0,
+    "saved_rows": 0,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\polymyxin b_features.tsv"
+  },
+  {
+    "antibiotic": "rifampin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\rifampin_features.tsv"
+  },
+  {
+    "antibiotic": "spectinomycin",
+    "input_rows": 20,
+    "saved_rows": 17,
+    "missing_genomes": 3,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\spectinomycin_features.tsv"
+  },
+  {
+    "antibiotic": "streptomycin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\streptomycin_features.tsv"
+  },
+  {
+    "antibiotic": "sulfamethoxazole",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\sulfamethoxazole_features.tsv"
+  },
+  {
+    "antibiotic": "teicoplanin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\teicoplanin_features.tsv"
+  },
+  {
+    "antibiotic": "tetracycline",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\tetracycline_features.tsv"
+  },
+  {
+    "antibiotic": "tigecycline",
+    "input_rows": 20,
+    "saved_rows": 19,
+    "missing_genomes": 1,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\tigecycline_features.tsv"
+  },
+  {
+    "antibiotic": "tobramycin",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\tobramycin_features.tsv"
+  },
+  {
+    "antibiotic": "trimethoprim",
+    "input_rows": 20,
+    "saved_rows": 20,
+    "missing_genomes": 0,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\trimethoprim_features.tsv"
+  },
+  {
+    "antibiotic": "trimethoprim-sulfamethoxazole",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\trimethoprim-sulfamethoxazole_features.tsv"
+  },
+  {
+    "antibiotic": "vancomycin",
+    "input_rows": 20,
+    "saved_rows": 18,
+    "missing_genomes": 2,
+    "failed_genomes": 0,
+    "feature_count": 360,
+    "gene_defs_path": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\card_gene_signatures.json",
+    "output_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\data\\per_antibiotic_features\\vancomycin_features.tsv"
+  }
+]

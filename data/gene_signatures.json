@@ -1,0 +1,102 @@
+{
+    "blaNDM": {
+        "family": "NDM-1 (New Delhi Metallo-beta-lactamase)",
+        "antibiotic_class": "Carbapenems / Meropenem / Imipenem",
+        "clinical_note": "Pan-drug resistance marker; very high priority",
+        "signatures": [
+            "ATGGAATTGCCCAATATTATGC",
+            "ATGGAATTGCCCAATATT",
+            "GAATTGCCCAATATTATGCAC"
+        ]
+    },
+    "mecA": {
+        "family": "mecA (Methicillin resistance — MRSA)",
+        "antibiotic_class": "Methicillin / Oxacillin / Beta-lactams",
+        "clinical_note": "Defines MRSA; changes PBP2a",
+        "signatures": [
+            "ATGAAAAAGATAAAAATTCT",
+            "ATGAAAAAGATAAAAATT",
+            "AAAAAGATAAAAATTCTTGG"
+        ]
+    },
+    "gyrA_mut": {
+        "family": "gyrA D87N / S83L (Quinolone resistance mutation)",
+        "antibiotic_class": "Fluoroquinolones / Ciprofloxacin / Levofloxacin",
+        "clinical_note": "Target-site mutation; reduces gyrase drug affinity",
+        "signatures": [
+            "ATGCGTAGCGATCGATCGTA",
+            "ATGCGTAGCGATCGATCG",
+            "CGTAGCGATCGATCGTAGCT"
+        ]
+    },
+    "blaTEM": {
+        "family": "TEM Beta-lactamase",
+        "antibiotic_class": "Penicillins / Ampicillin / Amoxicillin",
+        "clinical_note": "Most common plasmid-borne beta-lactamase",
+        "signatures": [
+            "ATGAGTATTCAACATTTCCG",
+            "ATGAGTATTCAACATTTCC",
+            "AGTATTCAACATTTCCGTGTC"
+        ]
+    },
+    "blaCTX_M": {
+        "family": "CTX-M Extended-spectrum beta-lactamase (ESBL)",
+        "antibiotic_class": "Cephalosporins / Cefotaxime / Ceftriaxone",
+        "clinical_note": "Globally dominant ESBL; often co-carries with blaTEM",
+        "signatures": [
+            "ATGAAACATATTGATAATCC",
+            "ATGAAACATATTGATAAT",
+            "AAACATATTGATAATCCGATG"
+        ]
+    },
+    "vanA": {
+        "family": "vanA (Vancomycin resistance — VRE)",
+        "antibiotic_class": "Vancomycin / Teicoplanin / Glycopeptides",
+        "clinical_note": "High-level glycopeptide resistance; enterococcal",
+        "signatures": [
+            "ATGAATAGAATCGCAACAGC",
+            "ATGAATAGAATCGCAACA",
+            "AATAGAATCGCAACAGCAAAC"
+        ]
+    },
+    "aac6_Ib": {
+        "family": "aac(6')-Ib Aminoglycoside acetyltransferase",
+        "antibiotic_class": "Aminoglycosides / Amikacin / Tobramycin",
+        "clinical_note": "Most prevalent aminoglycoside resistance enzyme",
+        "signatures": [
+            "ATGACGAATCGCTATGCCAT",
+            "ATGACGAATCGCTATGCC",
+            "CGAATCGCTATGCCATCGATG"
+        ]
+    },
+    "sul1": {
+        "family": "sul1 (Sulfonamide resistance dihydropteroate synthase)",
+        "antibiotic_class": "Sulfonamides / Trimethoprim-sulfamethoxazole",
+        "clinical_note": "Often located on class 1 integrons",
+        "signatures": [
+            "ATGGTGACGGTGTTCGGCAT",
+            "ATGGTGACGGTGTTCGGC",
+            "GTGACGGTGTTCGGCATCGGT"
+        ]
+    },
+    "tetA": {
+        "family": "tetA (Tetracycline efflux pump)",
+        "antibiotic_class": "Tetracyclines / Doxycycline",
+        "clinical_note": "Active efflux; reduces intracellular tetracycline",
+        "signatures": [
+            "ATGAAATCTTTAGTTTTCAG",
+            "ATGAAATCTTTAGTTTTC",
+            "AAATCTTTAGTTTTCAGTTCC"
+        ]
+    },
+    "mcr1": {
+        "family": "mcr-1 (Mobile Colistin Resistance)",
+        "antibiotic_class": "Colistin / Polymyxins (last-resort)",
+        "clinical_note": "Plasmid-borne colistin resistance; global emergence",
+        "signatures": [
+            "ATGCGATTTTTGAGAAGCTT",
+            "ATGCGATTTTTGAGAAG",
+            "CGATTTTTGAGAAGCTTCGCG"
+        ]
+    }
+}

@@ -1,0 +1,944 @@
+[
+  {
+    "antibiotic": "ampicillin",
+    "n_samples": 17,
+    "class_distribution": {
+      "NotResistant": 7,
+      "Resistant": 10
+    },
+    "baseline_accuracy": 0.5882352941176471,
+    "metrics": {
+      "accuracy_mean": 0.5999999999999999,
+      "accuracy_std": 0.0816496580927726,
+      "balanced_accuracy_mean": 0.6,
+      "balanced_accuracy_std": 0.1224744871391589,
+      "f1_resistant_mean": 0.5599999999999999,
+      "f1_resistant_std": 0.28472208672083493,
+      "confusion_matrix": [
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ampicillin_model.pkl"
+  },
+  {
+    "antibiotic": "amikacin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 18,
+      "Resistant": 2
+    },
+    "baseline_accuracy": 0.9,
+    "metrics": {
+      "accuracy_mean": 0.9,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\amikacin_model.pkl"
+  },
+  {
+    "antibiotic": "amoxicillin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 12,
+      "Resistant": 8
+    },
+    "baseline_accuracy": 0.6,
+    "metrics": {
+      "accuracy_mean": 0.6,
+      "accuracy_std": 0.1224744871391589,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.1,
+      "f1_resistant_std": 0.20000000000000004,
+      "confusion_matrix": [
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\amoxicillin_model.pkl"
+  },
+  {
+    "antibiotic": "azithromycin",
+    "n_samples": 17,
+    "class_distribution": {
+      "NotResistant": 17
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\azithromycin_model.pkl"
+  },
+  {
+    "antibiotic": "aztreonam",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\aztreonam_model.pkl"
+  },
+  {
+    "antibiotic": "cefazolin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\cefazolin_model.pkl"
+  },
+  {
+    "antibiotic": "cefepime",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\cefepime_model.pkl"
+  },
+  {
+    "antibiotic": "cefoxitin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\cefoxitin_model.pkl"
+  },
+  {
+    "antibiotic": "ceftazidime",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ceftazidime_model.pkl"
+  },
+  {
+    "antibiotic": "ceftriaxone",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ceftriaxone_model.pkl"
+  },
+  {
+    "antibiotic": "cefuroxime",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 13,
+      "Resistant": 7
+    },
+    "baseline_accuracy": 0.65,
+    "metrics": {
+      "accuracy_mean": 0.65,
+      "accuracy_std": 0.20000000000000004,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.15811388300841897,
+      "f1_resistant_mean": 0.13333333333333333,
+      "f1_resistant_std": 0.26666666666666666,
+      "confusion_matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          12
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\cefuroxime_model.pkl"
+  },
+  {
+    "antibiotic": "chloramphenicol",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 16,
+      "Resistant": 4
+    },
+    "baseline_accuracy": 0.8,
+    "metrics": {
+      "accuracy_mean": 0.8,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\chloramphenicol_model.pkl"
+  },
+  {
+    "antibiotic": "ciprofloxacin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 15,
+      "Resistant": 3
+    },
+    "baseline_accuracy": 0.8333333333333334,
+    "metrics": {
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ciprofloxacin_model.pkl"
+  },
+  {
+    "antibiotic": "clarithromycin",
+    "n_samples": 17,
+    "class_distribution": {
+      "NotResistant": 16,
+      "Resistant": 1
+    },
+    "baseline_accuracy": 0.9411764705882353,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\clarithromycin_model.pkl"
+  },
+  {
+    "antibiotic": "clindamycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\clindamycin_model.pkl"
+  },
+  {
+    "antibiotic": "colistin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 18,
+      "Resistant": 2
+    },
+    "baseline_accuracy": 0.9,
+    "metrics": {
+      "accuracy_mean": 0.9,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\colistin_model.pkl"
+  },
+  {
+    "antibiotic": "daptomycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "Resistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\daptomycin_model.pkl"
+  },
+  {
+    "antibiotic": "doxycycline",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 5,
+      "Resistant": 15
+    },
+    "baseline_accuracy": 0.75,
+    "metrics": {
+      "accuracy_mean": 0.75,
+      "accuracy_std": 0.0,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.8571428571428571,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          15,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\doxycycline_model.pkl"
+  },
+  {
+    "antibiotic": "ertapenem",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ertapenem_model.pkl"
+  },
+  {
+    "antibiotic": "erythromycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 17,
+      "Resistant": 1
+    },
+    "baseline_accuracy": 0.9444444444444444,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\erythromycin_model.pkl"
+  },
+  {
+    "antibiotic": "fosfomycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\fosfomycin_model.pkl"
+  },
+  {
+    "antibiotic": "gentamicin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 17,
+      "Resistant": 3
+    },
+    "baseline_accuracy": 0.85,
+    "metrics": {
+      "accuracy_mean": 0.8492063492063492,
+      "accuracy_std": 0.011223917161691192,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          17
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\gentamicin_model.pkl"
+  },
+  {
+    "antibiotic": "imipenem",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 20
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\imipenem_model.pkl"
+  },
+  {
+    "antibiotic": "kanamycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 13,
+      "Resistant": 5
+    },
+    "baseline_accuracy": 0.7222222222222222,
+    "metrics": {
+      "accuracy_mean": 0.7,
+      "accuracy_std": 0.2147349787787521,
+      "balanced_accuracy_mean": 0.6833333333333333,
+      "balanced_accuracy_std": 0.27080128015453203,
+      "f1_resistant_mean": 0.4666666666666666,
+      "f1_resistant_std": 0.4,
+      "confusion_matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          10
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\kanamycin_model.pkl"
+  },
+  {
+    "antibiotic": "levofloxacin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 14,
+      "Resistant": 6
+    },
+    "baseline_accuracy": 0.7,
+    "metrics": {
+      "accuracy_mean": 0.55,
+      "accuracy_std": 0.33166247903554,
+      "balanced_accuracy_mean": 0.5333333333333333,
+      "balanced_accuracy_std": 0.32317865716108857,
+      "f1_resistant_mean": 0.3,
+      "f1_resistant_std": 0.39999999999999997,
+      "confusion_matrix": [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\levofloxacin_model.pkl"
+  },
+  {
+    "antibiotic": "linezolid",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\linezolid_model.pkl"
+  },
+  {
+    "antibiotic": "meropenem",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 9,
+      "Resistant": 11
+    },
+    "baseline_accuracy": 0.55,
+    "metrics": {
+      "accuracy_mean": 0.7,
+      "accuracy_std": 0.18708286933869706,
+      "balanced_accuracy_mean": 0.7166666666666666,
+      "balanced_accuracy_std": 0.19436506316151,
+      "f1_resistant_mean": 0.6199999999999999,
+      "f1_resistant_std": 0.3487119154832539,
+      "confusion_matrix": [
+        [
+          7,
+          4
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\meropenem_model.pkl"
+  },
+  {
+    "antibiotic": "minocycline",
+    "n_samples": 19,
+    "class_distribution": {
+      "NotResistant": 18,
+      "Resistant": 1
+    },
+    "baseline_accuracy": 0.9473684210526315,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\minocycline_model.pkl"
+  },
+  {
+    "antibiotic": "moxifloxacin",
+    "n_samples": 19,
+    "class_distribution": {
+      "NotResistant": 13,
+      "Resistant": 6
+    },
+    "baseline_accuracy": 0.6842105263157895,
+    "metrics": {
+      "accuracy_mean": 0.5666666666666667,
+      "accuracy_std": 0.16158932858054434,
+      "balanced_accuracy_mean": 0.55,
+      "balanced_accuracy_std": 0.24494897427831777,
+      "f1_resistant_mean": 0.26666666666666666,
+      "f1_resistant_std": 0.3265986323710904,
+      "confusion_matrix": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\moxifloxacin_model.pkl"
+  },
+  {
+    "antibiotic": "nitrofurantoin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 12,
+      "Resistant": 6
+    },
+    "baseline_accuracy": 0.6666666666666666,
+    "metrics": {
+      "accuracy_mean": 0.55,
+      "accuracy_std": 0.14529663145135577,
+      "balanced_accuracy_mean": 0.4333333333333333,
+      "balanced_accuracy_std": 0.17795130420052185,
+      "f1_resistant_mean": 0.13333333333333333,
+      "f1_resistant_std": 0.26666666666666666,
+      "confusion_matrix": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\nitrofurantoin_model.pkl"
+  },
+  {
+    "antibiotic": "norfloxacin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 16,
+      "Resistant": 4
+    },
+    "baseline_accuracy": 0.8,
+    "metrics": {
+      "accuracy_mean": 0.8500000000000001,
+      "accuracy_std": 0.08660254037844385,
+      "balanced_accuracy_mean": 0.625,
+      "balanced_accuracy_std": 0.21650635094610965,
+      "f1_resistant_mean": 0.25,
+      "f1_resistant_std": 0.4330127018922193,
+      "confusion_matrix": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\norfloxacin_model.pkl"
+  },
+  {
+    "antibiotic": "ofloxacin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 10,
+      "Resistant": 10
+    },
+    "baseline_accuracy": 0.5,
+    "metrics": {
+      "accuracy_mean": 0.8,
+      "accuracy_std": 0.18708286933869706,
+      "balanced_accuracy_mean": 0.8,
+      "balanced_accuracy_std": 0.18708286933869706,
+      "f1_resistant_mean": 0.82,
+      "f1_resistant_std": 0.1833030277982336,
+      "confusion_matrix": [
+        [
+          9,
+          1
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\ofloxacin_model.pkl"
+  },
+  {
+    "antibiotic": "oxacillin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 17,
+      "Resistant": 1
+    },
+    "baseline_accuracy": 0.9444444444444444,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\oxacillin_model.pkl"
+  },
+  {
+    "antibiotic": "penicillin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 5,
+      "Resistant": 13
+    },
+    "baseline_accuracy": 0.7222222222222222,
+    "metrics": {
+      "accuracy_mean": 0.7833333333333333,
+      "accuracy_std": 0.11303883305208781,
+      "balanced_accuracy_mean": 0.7333333333333333,
+      "balanced_accuracy_std": 0.19999999999999998,
+      "f1_resistant_mean": 0.8514285714285714,
+      "f1_resistant_std": 0.07751234266428876,
+      "confusion_matrix": [
+        [
+          11,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\penicillin_model.pkl"
+  },
+  {
+    "antibiotic": "piperacillin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 14,
+      "Resistant": 6
+    },
+    "baseline_accuracy": 0.7,
+    "metrics": {
+      "accuracy_mean": 0.75,
+      "accuracy_std": 0.15811388300841897,
+      "balanced_accuracy_mean": 0.6666666666666666,
+      "balanced_accuracy_std": 0.21081851067789195,
+      "f1_resistant_mean": 0.4666666666666666,
+      "f1_resistant_std": 0.4,
+      "confusion_matrix": [
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          11
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\piperacillin_model.pkl"
+  },
+  {
+    "antibiotic": "piperacillin-tazobactam",
+    "n_samples": 13,
+    "class_distribution": {
+      "NotResistant": 8,
+      "Resistant": 5
+    },
+    "baseline_accuracy": 0.6153846153846154,
+    "metrics": {
+      "accuracy_mean": 0.8,
+      "accuracy_std": 0.26666666666666666,
+      "balanced_accuracy_mean": 0.75,
+      "balanced_accuracy_std": 0.31622776601683794,
+      "f1_resistant_mean": 0.6,
+      "f1_resistant_std": 0.48989794855663565,
+      "confusion_matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\piperacillin-tazobactam_model.pkl"
+  },
+  {
+    "antibiotic": "rifampin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\rifampin_model.pkl"
+  },
+  {
+    "antibiotic": "spectinomycin",
+    "n_samples": 17,
+    "class_distribution": {
+      "NotResistant": 17
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\spectinomycin_model.pkl"
+  },
+  {
+    "antibiotic": "streptomycin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 3,
+      "Resistant": 17
+    },
+    "baseline_accuracy": 0.85,
+    "metrics": {
+      "accuracy_mean": 0.8492063492063492,
+      "accuracy_std": 0.011223917161691192,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.9184149184149185,
+      "f1_resistant_std": 0.006593070220853628,
+      "confusion_matrix": [
+        [
+          17,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\streptomycin_model.pkl"
+  },
+  {
+    "antibiotic": "sulfamethoxazole",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 12,
+      "Resistant": 8
+    },
+    "baseline_accuracy": 0.6,
+    "metrics": {
+      "accuracy_mean": 0.35,
+      "accuracy_std": 0.2,
+      "balanced_accuracy_mean": 0.35,
+      "balanced_accuracy_std": 0.1224744871391589,
+      "f1_resistant_mean": 0.08,
+      "f1_resistant_std": 0.16,
+      "confusion_matrix": [
+        [
+          1,
+          7
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\sulfamethoxazole_model.pkl"
+  },
+  {
+    "antibiotic": "teicoplanin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\teicoplanin_model.pkl"
+  },
+  {
+    "antibiotic": "tetracycline",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 15,
+      "Resistant": 3
+    },
+    "baseline_accuracy": 0.8333333333333334,
+    "metrics": {
+      "accuracy_mean": 0.7777777777777778,
+      "accuracy_std": 0.07856742013183865,
+      "balanced_accuracy_mean": 0.4666666666666666,
+      "balanced_accuracy_std": 0.04714045207910316,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          14
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\tetracycline_model.pkl"
+  },
+  {
+    "antibiotic": "tigecycline",
+    "n_samples": 19,
+    "class_distribution": {
+      "NotResistant": 12,
+      "Resistant": 7
+    },
+    "baseline_accuracy": 0.631578947368421,
+    "metrics": {
+      "accuracy_mean": 0.5833333333333333,
+      "accuracy_std": 0.19002923751652298,
+      "balanced_accuracy_mean": 0.6,
+      "balanced_accuracy_std": 0.2438123139721299,
+      "f1_resistant_mean": 0.4,
+      "f1_resistant_std": 0.3265986323710904,
+      "confusion_matrix": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\tigecycline_model.pkl"
+  },
+  {
+    "antibiotic": "tobramycin",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 17,
+      "Resistant": 3
+    },
+    "baseline_accuracy": 0.85,
+    "metrics": {
+      "accuracy_mean": 0.8492063492063492,
+      "accuracy_std": 0.011223917161691192,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.0,
+      "f1_resistant_mean": 0.0,
+      "f1_resistant_std": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          17
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\tobramycin_model.pkl"
+  },
+  {
+    "antibiotic": "trimethoprim",
+    "n_samples": 20,
+    "class_distribution": {
+      "NotResistant": 13,
+      "Resistant": 7
+    },
+    "baseline_accuracy": 0.65,
+    "metrics": {
+      "accuracy_mean": 0.65,
+      "accuracy_std": 0.20000000000000004,
+      "balanced_accuracy_mean": 0.5,
+      "balanced_accuracy_std": 0.15811388300841897,
+      "f1_resistant_mean": 0.13333333333333333,
+      "f1_resistant_std": 0.26666666666666666,
+      "confusion_matrix": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          12
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\trimethoprim_model.pkl"
+  },
+  {
+    "antibiotic": "trimethoprim-sulfamethoxazole",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 9,
+      "Resistant": 9
+    },
+    "baseline_accuracy": 0.5,
+    "metrics": {
+      "accuracy_mean": 0.6666666666666666,
+      "accuracy_std": 0.09128709291752769,
+      "balanced_accuracy_mean": 0.65,
+      "balanced_accuracy_std": 0.1224744871391589,
+      "f1_resistant_mean": 0.6133333333333333,
+      "f1_resistant_std": 0.310984101058416,
+      "confusion_matrix": [
+        [
+          7,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\trimethoprim-sulfamethoxazole_model.pkl"
+  },
+  {
+    "antibiotic": "vancomycin",
+    "n_samples": 18,
+    "class_distribution": {
+      "NotResistant": 18
+    },
+    "baseline_accuracy": 1.0,
+    "metrics": null,
+    "model_file": "C:\\Users\\tbaii\\Downloads\\NITDELHIROUND2\\model\\per_antibiotic_models\\vancomycin_model.pkl"
+  }
+]
